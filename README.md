@@ -1,19 +1,24 @@
 ### General
 RTFM Stands for read the f**kng manual
+
 A shebang is the character sequence consisting of the characters number sign and exclamation mark (#!) at the beginning of a script.
 
 #### What is the shell
+
 Shell is a program that takes commands from the keyboard and gives them to the operating system to perform.
 
 #### Difference between the shell and the terminal
+
 Shell is a program that takes commands from the keyboard and gives them to the OS to perform while a terminal is a program that opens a window to let you interact with shell
 
 #### What is shell prompt
+
 The shell prompt is where one types in commands.
 
 ---
 
 ### Navigation
+
 - *cd* is used to change directory
 - *pwd* writes the full pathname of the current working directory to the standard output.
 - *ls* is used to list computer files and directories
@@ -21,14 +26,17 @@ The shell prompt is where one types in commands.
 ---
 
 ### Looking Around
+
 - *ls* is used to list computer files and directories
 - *less* is used to show a file contents one page at a time
 - *file* is used to determine the type of a file
+
 [A Guided Tour](http://linuxcommand.org/lc3_lts0040.php)
 
 ---
 
 ### Manipulating Files
+
 - *cp* **is used to copy files and directories
 - *mv* is used to move or rename files and directories depending on how it has been used
 - *rm* is used to delete files or directorie. rm -r deletes directories with its contents.
@@ -44,6 +52,7 @@ The shell prompt is where one types in commands.
 - *man* is used to display an on-line command reference
 
 #### Different kind of commands
+
 **Commands are divided into 4;
 - An executable program
 - A command built into the shell itself
@@ -51,12 +60,15 @@ The shell prompt is where one types in commands.
 - An alias 
 
 #### alias
+
 **Alias are commands that we define ourselves, built from other commands.
 
 #### When to use man instead of help
+
 **We use **help** for shell built ins while we use **man** for executable programs
 
 ### Keyboard Shorcuts for Bash
+
 - Ctrl+C interrupts or kills the current foreground process running in the terminal
 - Ctrl+z suspends the current foreground process running in bash.
 - Ctrl+D Close the bash shell
