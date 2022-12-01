@@ -1,6 +1,6 @@
-| #### Resources |
+| Resources |
 | ----------- |
-| ##### Read |
+| Read |
 | [Permissions](http://linuxcommand.org/lc3_lts0090.php) |
 | `man` or `help` |
 | - [`chmod`](https://www.computerhope.com/unix/uchmod.htm): The command name chmod stands for "change mode." It restricts the way a file can be accessed. |
@@ -14,7 +14,7 @@
 | - [`adduser`](https://www.computerhope.com/unix/adduser.htm): The adduser command creates a new user. |
 | - [`useradd`](): The useradd command creates a new user or sets the default information for new users. |
 | - [`addgroup`](https://www.computerhope.com/unix/adduser.htm): The adduser command creates a new group. |
-| ----------- |
+|  |
 
 ---
 
@@ -28,19 +28,13 @@ To see the permission settings for a file, we can use the ls command.
 ![File permissions](http://linuxcommand.org/images/file_permissions.png)
 
 | **Value** | **Meaning** |
-| ----------- | ----------- |
 | **777** | **(rwxrwxrwx)** No restrictions on permissions. Anybody may do anything. Generally not a desirable setting. |
-| ----------- | ----------- |
 | **755** | **(rwxr-xr-x)** The file's owner may read, write, and execute the file. All others may read and execute the file.|
-| ----------- | ----------- |
 | **700** | **(rwx------)** The file's owner may read, write, and execute the file. Nobody else has any rights. |
-| ----------- | ----------- |
 | **666** | **(rw-rw-rw-)** All users may read and write the file. |
-| ----------- | ----------- |
 | **644** | **(rw-r--r--)** The owner may read and write a file, while all others may only read the file. |
-| ----------- | ----------- |
 | **600** | **(rw-------)** The owner may read and write a file. All others have no rights. |
-| ----------- | ----------- |
+|  |  |
 
 ###### Representing the sets of permissions as a single number
 
