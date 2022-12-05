@@ -34,9 +34,9 @@ In this example, the output of the `ls` command is fed into `less`. By using thi
 Other examples
 | **Command** | **Function** |
 | ----------- | ----------- |
-| `ls -lt /| head` | Displays the 10 newest files in the current directory. |
-| `du /| sort -nr` | Displays a list of directories and how much space they consume, sorted from the largest to the smallest. |
-| `find . -type f -print /| wc -l` | Displays the total number of files in the current working directory and all of its subdirectories. |
+| `ls-lt `|` `head` | Displays the 10 newest files in the current directory. |
+| `du `|` `sort-nr` | Displays a list of directories and how much space they consume, sorted from the largest to the smallest. |
+| `find . -type f -print `|` `wc -l` | Displays the total number of files in the current working directory and all of its subdirectories. |
 
 #### Filters
 This the most frequently used program in pipelines. Filters take standard input and process it and then sends the results to standard output.
