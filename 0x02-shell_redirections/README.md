@@ -44,7 +44,7 @@ Common programs that double as filters.
 
 | **Command** | **Function** |
 | ----------- | ----------- |
-| `head` | Outputs the first few lines of its input. Useful for getting the header of a file. |
+| `head` | Outputs the first few lines of its input. Useful for getting the header of a file. `head -x file_name` `pipe` `tail +x` is used to find the nth number of line in a file |
 | `tail` | Outputs the last few lines of its input. Useful for things like getting the most recent entries from a log file. |
 | `find` | Search for files in a directory hierarchy |
 | `wc` | Prints newline, word, and byte counts for each file |
