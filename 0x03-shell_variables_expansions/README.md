@@ -64,3 +64,4 @@ When we need to suppress all expansions, we use single quotes.
 # Shell Initialization Files
 
 # [The alias Command](http://www.linfo.org/alias.html)
+- Syntax is alias `name="value"`
